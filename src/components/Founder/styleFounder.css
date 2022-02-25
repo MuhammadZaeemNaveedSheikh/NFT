@@ -1,0 +1,62 @@
+img{
+    height: 300px;
+    width: 300px;
+    
+}
+.artist{
+    justify-content: 'center';
+    align-items: 'center';
+    text-align: center;
+    left: 50%;
+}
+h1{
+    color: rgba(47, 209, 255, 0.8);
+    font-family: 'Chalkduster','fantasy';
+}
+h5{
+    color: #fff;
+    font-family: 'Chalkduster','fantasy';
+    font-size: 28px;
+    font-weight: 100;
+}
+.data{
+    color: lightgrey;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80rem;
+    margin-top: 10px;
+    font-weight: bolder;
+  
+    margin-bottom: 200px;
+}
+.icon1{
+    color: #fff;
+    margin: 4px;
+
+}
+.icon1:hover{
+    opacity: 1.45;
+    color: rgba(47, 209, 255, 0.8);
+    font-size: 30px;
+    
+}
+@media only screen and (max-width: 768px) {
+    .data{
+        color: rgba(214, 206, 210, 0.8);
+        margin-left: auto;
+        margin-right: auto;
+        width: 40rem;
+        margin-top: 10px;
+        font-weight: bolder;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .data{
+        color: rgba(214, 206, 210, 0.8);
+        margin-left: auto;
+        margin-right: auto;
+        width: 30rem;
+        margin-top: 10px;
+        font-weight: bolder;
+    }
+  }

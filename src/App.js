@@ -1,24 +1,36 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import TeamLead from './components/teamLead/teamLead'
+import Details from './components/Details/Details';
+import Artist from './components/Artist/Artist';
+import Footer from './components/Footer/Footer';
+import Faq from './components/FAQ/Faq';
+import Founder from './components/Founder/Founder';
+import Legend from './components/Legend/Legend';
+import MainImage from './components/MainImage/MainImage';
+import Section from './components/Section/Section';
+import TeamLead2 from './components/TeamLead2/TeamLead2';
+import Corosel from './components/Corosel/Corosel';
+import Roadmap  from './components/Roadmap/Roadmap';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <>
+      <Section />
+      <MainImage />
+      
+      <Legend />
+      <Roadmap />
+      <Corosel />
+      <Founder />
+      <TeamLead2 />
+      <Artist />
+    
+      <TeamLead />
+      <Details />
+      <Faq />
+      <Footer />
+      </>
   );
 }
 

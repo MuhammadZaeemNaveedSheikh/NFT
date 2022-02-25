@@ -1,0 +1,16 @@
+.row{
+    width:90%;
+    justify-content: center;
+    align-items: center;
+}
+.col{
+    background-color: transparent;
+}
+.fontcheck{
+    color:'white'
+}
+.readmore{
+    color: aqua;
+    font-family: 'cursive';
+    font-size: 50px;
+}

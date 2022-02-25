@@ -15,6 +15,7 @@ function Faq(){
     setExpanded(isExpanded ? panel : false);
   };
   return (
+      // TODO import Content here, and iterate Content.faq to render
     <div className='faqmain' style={{ backgroundColor:'transparent',justifyContent:'center',margin:'auto',marginBottom:'30px'}}>
         <h1 style={{color:'#fff',fontWeight:'bolder',fontSize:'50px',marginBottom:'40px',marginTop:'155px'}}>FAQ</h1>
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')} style={{ backgroundColor:'transparent',color:'white',borderBottom:'1px solid white',fontWeight:'bolder',marginBottom:'20px'}}>

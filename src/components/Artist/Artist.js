@@ -6,7 +6,7 @@ import './App.css';
 
 function Artist(){
     return(
-        <div className='artist' style={{marginTop:'200px',marginBottom:'250px'}}>
+        <div className='artist' style={{marginTop:'200px',marginBottom:'350px'}}>
             <img src={logo} alt=""/>
             <h1 className='yann' style={{ fontFamily: 'cursive',letterSpacing:'10px',fontSize:'50px'}}>YANIV SHAHAR</h1>
             <h5 style={{fontFamily:'cursive',marginBottom:'5px'}}>The Artist</h5>

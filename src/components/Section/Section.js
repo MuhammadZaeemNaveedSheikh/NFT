@@ -5,7 +5,7 @@ import './section.css';
 
 function Section(){
     return(
-        <div class="container">
+        <div class="container" style={{marginTop:'190px'}}>
  <Title style={{max: 25,  speed: 300,glare:true,
             "max-glare":1 }}>
         <div class="card">

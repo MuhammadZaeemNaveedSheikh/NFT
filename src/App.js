@@ -12,10 +12,12 @@ import Section from './components/Section/Section';
 import TeamLead2 from './components/TeamLead2/TeamLead2';
 import Corosel from './components/Corosel/Corosel';
 import Roadmap  from './components/Roadmap/Roadmap';
+import Header from './components/Header/Header';
 
 function App() {
   return (
       <>
+      <Header />
       <Section />
       <MainImage />
       

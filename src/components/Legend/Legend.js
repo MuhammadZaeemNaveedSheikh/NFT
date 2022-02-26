@@ -11,11 +11,11 @@ import './Legend.css';
 
 function Legend(){
     return(
-        <div className="row" style={{marginTop:'250px',marginBottom:'200px'}}>
-            <div className='col' style={{marginBottom:'250px',filter:'brightness(100%)'}}>
-                <h1 style={{fontFamily:'cursive',color:'#fff',fontSize:'45px',color:'#fff'}}>The Legend</h1>
+        <div className="row" style={{marginTop:'250px',marginBottom:'200px',display: 'flex',}}>
+            <div className='col' style={{marginBottom:'250px',filter:'brightness(100%)',width:'300px',marginRight:'100px'}}>
+                <h1 style={{fontFamily:'cursive',color:'#fff',fontSize:'45px',color:'#fff',marginLeft:'150px'}}>The Legend</h1>
             </div>
-            <div className='col'>
+            <div className='col' style={{width:'700px'}}>
             <Typography style={{color:'lightgrey',fontSize:'21px',fontWeight:'500'}}>Created in the year 5070 just before the World War 3 broke out, Lunaroid, a Shape Shifting Samurai Masked Robot comes back to the city of Japan after it was thought to have been destroyed or captured by the enemy force. This time around, wearing another face half angelic and half demonic. After the war had ended due to signed peace treaties, the Japanese government sent spies to other nations in a search of their whereabouts. Not out of goodwill though, but to be sure that the Masked Samurai was gone for good.</Typography>
       <Accordion className='col' style={{backgroundColor:'transparent',color:'#fff',width:'700px'}}>
 

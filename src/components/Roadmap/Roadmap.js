@@ -5,9 +5,9 @@ import './Roadmap.css';
 function Roadmap(){
     return(
         <div style={{width:'100%',marginBottom:'300px',filter:'brightness(200%)'}}>
-            <h1 style={{color:'white',marginLeft:'10%',fontFamily:'cursive',fontSize:'50px'}}>ROAD MAP</h1>
+            <h1 style={{color:'white',marginLeft:'25%',fontFamily:'cursive',fontSize:'50px'}}>ROAD MAP</h1>
             <div style={{display:'flex',flexDirection:'row'}} >
-            <img src={logo} alt="" style={{width:'50%',height:'300vh',left:'0px',top:0}}/>
+            <img src={logo} alt="" style={{width:'50%',height:'300vh',left:'0px',top:0}} className="roadmapimage"/>
             <div style={{display:'flex',flexDirection:'column',alignItems:'center',width:'38%',marginLeft:'5%'}} >
                 <div style={{marginBottom:'30px'}}>
                     <h1 style={{marginBottom:'15px',fontSize:'40px',fontFamily:'sans-serif',color:'#ddd',fontWeight:'100',letterSpacing:'3px'}}>Unconventional Art</h1>

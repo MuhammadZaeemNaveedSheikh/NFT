@@ -1,0 +1,129 @@
+.logo5{
+    color:'#fff';
+}
+nav{
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top:0;
+    padding:  0 5%;
+    font-family: sans-serif;
+    height: 100px;
+    background-color: transparent;
+}
+nav .logo5{
+    float: left;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #fff;
+}
+nav .links{
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .links li{
+    list-style: none;
+}
+nav .links a{
+    display: block;
+    padding: 1em;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #fff;
+    text-decoration: none;
+    font-family: cursive;
+    /* background-color: rgba(0,0,0,0.1); */
+}
+.links li a.btn7:hover{
+    color: #111;
+    text-decoration: underline;
+    opacity: 1;
+    background-color: aqua;
+}
+.links li a:hover{
+    color: aqua;
+    text-decoration: underline;
+    opacity: 1;
+}
+nav .links a:hover{
+    color:'aqua'
+}
+#nav-toggle{
+    position: absolute;
+    top: -100px;
+}
+nav .icon-burger{
+    display: none;
+    position: absolute;
+    right: 5%;
+    top:50%;
+    transform: translateY(-50%);
+
+}
+
+nav .icon-burger .line{
+    width: 30px;
+    height: 5px;
+    background: #fff;
+    margin: 5px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width:768px) {
+    nav .logo5{
+        float: none;
+        width: auto;
+        justify-content: center;
+    }
+    nav .links{
+       float: none;
+       position: fixed;
+       z-index: 9;
+       background-color: rgba(0,0,0,0.8);
+       left: 0;
+       right: 0;
+       top:100px;
+       bottom: 100%;
+       width: auto;
+       height: auto;
+       flex-direction: column;
+       justify-content: space-evenly;
+        overflow: hidden;
+        box-sizing: border-box;
+        transition: all 0.5s ease-in-out;
+    }
+    nav .links a{
+        font-size: 20px;
+    }
+    nav :checked ~ .links {
+        bottom: 0;
+
+    }
+    nav .icon-burger{
+        display: block;
+    }
+    nav :checked ~ .icon-burger .line:nth-child(1){
+        transform: translateY(10px) rotate(225deg);
+
+    }
+    nav :checked ~ .icon-burger .line:nth-child(3){
+        transform: translateY(-10px) rotate(-225deg);
+        
+    }
+    nav :checked ~ .icon-burger .line:nth-child(2){
+        opacity: 0;
+
+    }
+    
+}

@@ -7,6 +7,7 @@ import logo from './7.png';
 import logo1 from './wearetext.svg';
 import logo2 from './lunaroidtext.svg';
 
+import './MainImage.css';
 
 
   
@@ -19,8 +20,8 @@ function MainImage(){
           </Grid>
           <Grid item xs={4}>
               <div style={{display:'flex',justifyContent:'center',alignItems: 'center',width:'25%',marginTop:'30%'}}>
-          <img src={logo1}  style={{width:'400px', filter: 'brightness(700%)'}} alt=""/> 
-          <img src={logo2}  style={{width:'500px', filter: 'brightness(200%)'}} alt=""/>
+          <img src={logo1}  style={{width:'400px', filter: 'brightness(700%)'}} alt="" className='mainimagechange'/> 
+          <img src={logo2}  style={{width:'500px', filter: 'brightness(200%)'}} alt="" className='mainimagechange'/>
           </div>
           </Grid>
         

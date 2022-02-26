@@ -4,3 +4,35 @@
 .accordation{
     color:aqua;
 }
+@media only screen and (max-width: 600px) {
+    .faqmain {
+       margin-left: 100%;
+      
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .faqmain {
+      text-align: center;
+      justify-content: center;
+      margin-left: 300px;
+      
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    .faqmain {
+      text-align: center;
+      justify-content: center;
+      margin-left: 300px;
+      margin: auto;
+      
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .faqmain {
+      text-align: center;
+      justify-content: center;
+      margin-left: 300px;
+      margin: auto;
+      
+    }
+  }

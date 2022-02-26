@@ -13,7 +13,7 @@ import './style1.css';
 
 function Footer(){
     return(
-        <div>
+        <div className='copyright1'>
             {/* <footer>
                 {/* <div className='row'>
                     <div className='col'>

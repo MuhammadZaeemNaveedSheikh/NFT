@@ -4,7 +4,7 @@ import './App.css';;
 function Details(){
     return(
         <div>
-            <h4 style={{marginBottom:'100px',wordSpacing:'5px',letterSpacing:'3px'}}>
+            <h4 style={{marginBottom:'100px',wordSpacing:'5px',letterSpacing:'3px',fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif',}}>
             Chasing never ends - we will continually think and develop for you guys to build a stronger and smarter community. The new roadmap will be revealed in the near future to keep you updated and involved in our future together as the Lunaroid community.
             </h4>
 

@@ -20,7 +20,7 @@ function MainImage(){
           </Grid>
           <Grid item xs={4} xl={4} md={4} lg={4}>
               <div style={{display:'flex',justifyContent:'center',alignItems: 'center',width:'25%',marginTop:'30%'}}>
-                <h2 style={{ filter: 'brightness(700%)',color:'white',fontSize:'150px',fontFamily:'cursive'}}>OMEGA KNIGHTS</h2>
+                <h2 style={{ filter: 'brightness(700%)',color:'white',fontSize:'150px',fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif'}}>OMEGA KNIGHTS</h2>
         
           
           </div>

@@ -11,12 +11,12 @@ function Artist(){
     return(
         <div id={"artist"} className='artist' style={{marginTop:'200px',marginBottom:'350px'}}>
             <img src={"/images/alex.jpeg"} alt="" style={{borderRadius:'50%'}}/>
-            <h1 className='yann' style={{ fontFamily: 'cursive',letterSpacing:'10px',fontSize:'50px'}}>Alexander Karichi</h1>
-            <h5 style={{fontFamily:'cursive',marginBottom:'5px'}}>The Artist</h5>
+            <h1 className='yann' style={{ fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif',letterSpacing:'10px',fontSize:'50px'}}>Alexander Karichi</h1>
+            <h5 style={{fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif',marginBottom:'5px'}}>The Artist</h5>
             <a href="https://www.artstation.com/karichi" target={"_blank"}>
                 <FontAwesomeIcon icon={["fab", "artstation"]} size="xl" />
             </a>
-            <p className='data' style={{fontSize:'30px',fontWeight:'lighter',fontFamily:'sans-serif',letterSpacing:'2px'}}>
+            <p className='data' style={{fontSize:'30px',fontWeight:'lighter',fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif',letterSpacing:'2px'}}>
                 Alexander Karichi is a veteran designer with leading expertise in 3D and art design.
                 His passion lies at the intersection of art and design.
                 His works are a masterpiece of unconventional art laced with curiosity and a futuristic-driven idea to express the beauty of art in its purest form.

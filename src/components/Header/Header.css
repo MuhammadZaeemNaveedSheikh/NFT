@@ -42,7 +42,7 @@ nav .links a{
     font-weight: bolder;
     color: #fff;
     text-decoration: none;
-    font-family: cursive;
+    font-family: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif';
     /* background-color: rgba(0,0,0,0.1); */
 }
 .links li a.btn7:hover{

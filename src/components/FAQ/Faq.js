@@ -15,7 +15,7 @@ function Faq(){
     };
     return (
         <div id={"faq"} className='faqmain' style={{ backgroundColor:'transparent',justifyContent:'center',margin:'auto',marginBottom:'30px'}}>
-            <h1 style={{color:'#fff',fontWeight:'bolder',fontSize:'50px',marginBottom:'40px',marginTop:'155px'}}>FAQ</h1>
+            <h1 style={{color:'#fff',fontWeight:'bolder',fontSize:'50px',marginBottom:'40px',marginTop:'155px',fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif',}}>FAQ</h1>
             <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')} style={{ backgroundColor:'transparent',color:'white',borderBottom:'1px solid white',fontWeight:'bolder',marginBottom:'20px'}}>
                 <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}
@@ -23,7 +23,7 @@ function Faq(){
                     id="panel1bh-header"
                     style={{color:'white'}}
                 >
-                    <Typography sx={{ width: '100%', flexShrink: 0,color:'white',fontSize:'25px'}}>
+                    <Typography sx={{ width: '100%', flexShrink: 0,color:'white',fontSize:'25px',fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif'}}>
                         Where can I buy omega-knight NFT and be a part of
                         the community?<ArrowDropDownIcon style={{fontSize:'25px',float:'right'}} className="accordation" />
                     </Typography>
@@ -31,7 +31,7 @@ function Faq(){
                 </AccordionSummary>
                 <AccordionDetails>
                     <div style={{borderLeft:'3px solid aqua',marginRight:'10px'}}></div>
-                    <Typography style={{borderLeft:'3px solid aqua',marginRight:'10px',color:'lightgrey',fontSize:'23px' }}>
+                    <Typography style={{borderLeft:'3px solid aqua',marginRight:'10px',color:'lightgrey',fontSize:'23px' ,fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif'}}>
                         Minting date and website will be published soon. We
                         will post the details ahead of time on our Discord
                         server and Twitter account. The whitelist will be
@@ -48,14 +48,14 @@ function Faq(){
                     aria-controls="panel2bh-content"
                     id="panel2bh-header"
                 >
-                    <Typography sx={{ width: '100%', flexShrink: 0,color:'white',fontSize:'25px',}}>
+                    <Typography sx={{ width: '100%', flexShrink: 0,color:'white',fontSize:'25px',fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif'}}>
                         How much does a minting of omega-knight NFT cost?<ArrowDropDownIcon style={{fontSize:'25px',float:'right'}} className="accordation" />
                     </Typography>
 
                 </AccordionSummary>
                 <AccordionDetails>
                     <div style={{borderLeft:'3px solid aqua',marginRight:'10px'}}></div>
-                    <Typography style={{borderLeft:'3px solid aqua',marginRight:'10px',color:'lightgrey',fontSize:'23px' }}>
+                    <Typography style={{borderLeft:'3px solid aqua',marginRight:'10px',color:'lightgrey',fontSize:'23px',fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif' }}>
                         The cost of omega-knight NFT will be determined 24
                         hours before the mint date.
                     </Typography>
@@ -67,14 +67,14 @@ function Faq(){
                     aria-controls="panel3bh-content"
                     id="panel3bh-header"
                 >
-                    <Typography sx={{ width: '100%', flexShrink: 0,color:'white',fontSize:'25px',}}>
+                    <Typography sx={{ width: '100%', flexShrink: 0,color:'white',fontSize:'25px',fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif'}}>
                         How was the omega-knight NFT created?
                         <ArrowDropDownIcon style={{fontSize:'25px',float:'right'}} className="accordation" />
                     </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                     <div style={{borderLeft:'3px solid aqua',marginRight:'10px'}}></div>
-                    <Typography style={{borderLeft:'3px solid aqua',marginRight:'10px',color:'lightgrey',fontSize:'23px' }}>
+                    <Typography style={{borderLeft:'3px solid aqua',marginRight:'10px',color:'lightgrey',fontSize:'23px',fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif' }}>
                         Each omega-knight has been constructed
                         algorithmically by a special script that basically
                         mixes a variety of hand-drawn properties with
@@ -82,19 +82,19 @@ function Faq(){
                     </Typography>
                 </AccordionDetails>
             </Accordion>
-            <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')} style={{ backgroundColor:'transparent',color:'white',borderBottom:'1px solid white',fontWeight:'bolder',marginBottom:'20px'}}>
+            <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')} style={{ backgroundColor:'transparent',color:'white',borderBottom:'1px solid white',fontWeight:'bolder',marginBottom:'20px',fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif'}}>
                 <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel4bh-content"
                     id="panel4bh-header"
                 >
-                    <Typography sx={{ width: '100%', flexShrink: 0,color:'white',fontSize:'25px',}}>
+                    <Typography sx={{ width: '100%', flexShrink: 0,color:'white',fontSize:'25px',fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif'}}>
                         How to get whitelisted ?<ArrowDropDownIcon style={{fontSize:'25px',float:'right'}} className="accordation" />
                     </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                     <div style={{borderLeft:'3px solid aqua',marginRight:'10px'}}></div>
-                    <Typography style={{borderLeft:'3px solid aqua',marginRight:'10px',color:'lightgrey',fontSize:'23px' }}>
+                    <Typography style={{borderLeft:'3px solid aqua',marginRight:'10px',color:'lightgrey',fontSize:'23px',fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif' }}>
                         You can get whitelisted by inviting new members
                         into our discord server and by staying active and
                         help others inside our community.
@@ -110,14 +110,14 @@ function Faq(){
                     aria-controls="panel5bh-content"
                     id="panel5bh-header"
                 >
-                    <Typography sx={{ width: '100%', flexShrink: 0,color:'white',fontSize:'25px',}}>
+                    <Typography sx={{ width: '100%', flexShrink: 0,color:'white',fontSize:'25px',fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif'}}>
                         Are there benefits to holding multiple omega-knight
                         NFT?<ArrowDropDownIcon style={{fontSize:'25px',float:'right'}} className="accordation" />
                     </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                     <div style={{borderLeft:'3px solid aqua',marginRight:'10px'}}></div>
-                    <Typography style={{borderLeft:'3px solid aqua',marginRight:'10px',color:'lightgrey',fontSize:'23px' }}>
+                    <Typography style={{borderLeft:'3px solid aqua',marginRight:'10px',color:'lightgrey',fontSize:'23px',fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif' }}>
                         Yes, there will be air drops in the future and fair
                         votes.
                         So, each omega-knight NFT that you hold will give

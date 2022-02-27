@@ -4,7 +4,7 @@ import './Roadmap.css';
 
 function Roadmap(){
     return(
-        <div style={{width:'100%',marginBottom:'300px',filter:'brightness(200%)',marginLeft:'15%'}}>
+        <div id={"roadmap"} style={{width:'100%',marginBottom:'300px',filter:'brightness(200%)',marginLeft:'15%'}}>
             <h1 style={{color:'white',marginLeft:'25%',fontFamily:'cursive',fontSize:'50px',marginBottom:'100px'}}>ROAD MAP</h1>
             <div style={{display:'flex',flexDirection:'row'}} >
 

@@ -18,18 +18,14 @@ function App() {
   return (
       <>
       <Header />
-      {/* <Section /> */}
       <MainImage />
-      
       <Legend />
       <Roadmap />
       <Corosel />
       <Founder />
       <TeamLead2 />
       <Artist />
-    
       <TeamLead />
-      {/* <Details /> */}
       <Faq />
       <Footer />
       </>

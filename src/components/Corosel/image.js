@@ -1,7 +1,7 @@
 const images = [
     [
       {
-        src: "https://www.lunaroid.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.fb9c7c45.jpg&w=1920&q=50"
+        src: "../../images/2.jpg"
       },
       {
         src:

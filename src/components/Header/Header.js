@@ -17,7 +17,7 @@ function Header(){
                    <li><a href="#Artist">Artist</a></li>
                    <li><a href="#Team">Team</a></li>
                    <li><a href="#FAQ">FAQ</a></li>
-                   <li><a href="#Buy" style={{fontSize:'20px',border:'1px solid aqua',borderRadius:'5%'}} className="btn7">Buy on magic eden</a></li>
+                   {/* <li><a href="#Buy" style={{fontSize:'20px',border:'1px solid aqua',borderRadius:'5%'}} className="btn7">Buy on magic eden</a></li> */}
                    <li><a href="#Discord" style={{fontSize:'20px',border:'1px solid aqua',borderRadius:'5%'}} className="btn7">Join our discord</a></li>
                   
 

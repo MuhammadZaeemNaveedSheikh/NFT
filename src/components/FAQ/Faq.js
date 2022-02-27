@@ -25,14 +25,21 @@ function Faq(){
           style={{color:'white'}}
         >
           <Typography sx={{ width: '100%', flexShrink: 0,color:'white',fontSize:'25px'}}>
-          Where can I buy Lunaroid NFT and be a part of the community?<ArrowDropDownIcon style={{fontSize:'25px',float:'right'}} className="accordation" />
+          Where can I buy omega-knight NFT and be a part of
+the community?<ArrowDropDownIcon style={{fontSize:'25px',float:'right'}} className="accordation" />
           </Typography>
           
         </AccordionSummary>
         <AccordionDetails>
         <div style={{borderLeft:'3px solid aqua',marginRight:'10px'}}></div>
           <Typography style={{borderLeft:'3px solid aqua',marginRight:'10px',color:'lightgrey',fontSize:'23px' }}>
-          Minting date and website will be published soon. We will post the details ahead of time on our Discord server and Twitter account. The whitelist will be reserved for early adopters and the fan base community. After the mint is over, there will be an option to trade on secondary market platforms.
+          Minting date and website will be published soon. We
+will post the details ahead of time on our Discord
+server and Twitter account. The whitelist will be
+reserved for early adopters and the fan base
+community. After the mint is over, there will be an
+option to trade on secondary market platforms.
+
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -43,14 +50,15 @@ function Faq(){
           id="panel2bh-header"
         >
          <Typography sx={{ width: '100%', flexShrink: 0,color:'white',fontSize:'25px',}}>
-         How much does a minting of Lunaroid NFT cost?<ArrowDropDownIcon style={{fontSize:'25px',float:'right'}} className="accordation" />
+         How much does a minting of omega-knight NFT cost?<ArrowDropDownIcon style={{fontSize:'25px',float:'right'}} className="accordation" />
           </Typography>
        
         </AccordionSummary>
         <AccordionDetails>
         <div style={{borderLeft:'3px solid aqua',marginRight:'10px'}}></div>
           <Typography style={{borderLeft:'3px solid aqua',marginRight:'10px',color:'lightgrey',fontSize:'23px' }}>
-          The cost of Lunaroids NFT will be determined 24 hours before the mint date.
+          The cost of omega-knight NFT will be determined 24
+hours before the mint date.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -61,13 +69,17 @@ function Faq(){
           id="panel3bh-header"
         >
           <Typography sx={{ width: '100%', flexShrink: 0,color:'white',fontSize:'25px',}}>
-          How was the Lunaroids NFT created?<ArrowDropDownIcon style={{fontSize:'25px',float:'right'}} className="accordation" />
+          How was the omega-knight NFT created?
+<ArrowDropDownIcon style={{fontSize:'25px',float:'right'}} className="accordation" />
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
         <div style={{borderLeft:'3px solid aqua',marginRight:'10px'}}></div>
           <Typography style={{borderLeft:'3px solid aqua',marginRight:'10px',color:'lightgrey',fontSize:'23px' }}>
-          Each Lunaroid has been constructed algorithmically by a special script that basically mixes a variety of hand-drawn properties with different possibilities in the following categories: Background, Clothing, Side vent, Mask, Element, Hair.
+          Each omega-knight has been constructed
+algorithmically by a special script that basically
+mixes a variety of hand-drawn properties with
+different possibilities.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -78,13 +90,18 @@ function Faq(){
           id="panel4bh-header"
         >
           <Typography sx={{ width: '100%', flexShrink: 0,color:'white',fontSize:'25px',}}>
-          How to get whitelisted?<ArrowDropDownIcon style={{fontSize:'25px',float:'right'}} className="accordation" />
+          How to get whitelisted ?<ArrowDropDownIcon style={{fontSize:'25px',float:'right'}} className="accordation" />
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
         <div style={{borderLeft:'3px solid aqua',marginRight:'10px'}}></div>
           <Typography style={{borderLeft:'3px solid aqua',marginRight:'10px',color:'lightgrey',fontSize:'23px' }}>
-          You can get whitelisted by inviting new members into our discord server or by staying active and help others inside our community, you can find more about our whitelist requirements in our discord server #whitelist-requirements .
+          You can get whitelisted by inviting new members
+into our discord server and by staying active and
+help others inside our community.
+you can find more about our whitelist requirements
+in our discord server #whitelist-requirements.
+
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -95,13 +112,18 @@ function Faq(){
           id="panel5bh-header"
         >
           <Typography sx={{ width: '100%', flexShrink: 0,color:'white',fontSize:'25px',}}>
-          Are there benefits to holding multiple Lunaroid NFT?<ArrowDropDownIcon style={{fontSize:'25px',float:'right'}} className="accordation" />
+          Are there benefits to holding multiple omega-knight
+NFT?<ArrowDropDownIcon style={{fontSize:'25px',float:'right'}} className="accordation" />
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
         <div style={{borderLeft:'3px solid aqua',marginRight:'10px'}}></div>
           <Typography style={{borderLeft:'3px solid aqua',marginRight:'10px',color:'lightgrey',fontSize:'23px' }}>
-          Yes, there will be air drops in the future and fair votes. So, each Lunaroid NFT that you hold will give you more voting power in the community and get you more benefits.
+          Yes, there will be air drops in the future and fair
+votes.
+So, each omega-knight NFT that you hold will give
+you more voting power in the community and get
+you more benefits
           </Typography>
         </AccordionDetails>
       </Accordion>

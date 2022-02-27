@@ -54,7 +54,7 @@ function Footer(){
                 </div> 
             </footer> */}
             <hr></hr>
-            <p className='copyright'>Lunaroid © All rights reserved</p>
+            <p className='copyright'>Omega Knights NFT. © All rights reserved</p>
         </div>
     )
 

@@ -13,7 +13,7 @@ function Section(){
                 <h2>01</h2>
                 <h3>NFT One</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, voluptatem.</p>
-                <a href="#">Read More</a>
+                <a href="#" style={{fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif'}}>Read More</a>
             </div>
         </div>
         </Title>
@@ -24,7 +24,7 @@ function Section(){
                 <h2>02</h2>
                 <h3>NFT Two</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, voluptatem.</p>
-                <a href="#">Read More</a>
+                <a href="#" style={{fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif'}}>Read More</a>
             </div>
         </div>
         </Title>
@@ -35,7 +35,7 @@ function Section(){
                 <h2>03</h2>
                 <h3>NFT Three</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, voluptatem.</p>
-                <a href="#">Read More</a>
+                <a href="#" style={{fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif'}}>Read More</a>
             </div>
         </div>
         </Title>

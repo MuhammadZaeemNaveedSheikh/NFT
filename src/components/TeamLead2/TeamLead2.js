@@ -15,26 +15,23 @@ function TeamLead2(){
             <Grid container spacing={2} className="teamlead4">
                 <Grid item xs={6} md={6} lg={3} xl={3} style={{justifyContent:'center',alignItems:'center',textAlign:'center'}} className="teamlead4">
                     <img src={logo} alt="" style={{borderRadius:'100%',filter:'brightness(100%)' }} />
-                    <h3 style={{fontFamily:'cursive',color:'aqua',fontSize:'35px',fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif'}}>KNIGHT 1</h3>
-                    <p style={{fontSize:'20px',color:'lightgray',fontWeight:'bolder',fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif'}}>Co Founder & Marketing headmaster    </p>
+                    <h3 style={{fontFamily:'cursive',color:'aqua',fontSize:'35px'}}>Russo</h3>
+                    <p style={{fontSize:'20px',color:'lightgray',fontWeight:'bolder'}}>Co Founder & Marketing headmaster - Leader of the Black Scars</p>
                 </Grid>
                 <Grid item  xs={6} md={6} lg={3} xl={3}  style={{justifyContent:'center',alignItems:'center',textAlign:'center'}}>
                     <img src={logo2} alt="" style={{borderRadius:'100%',filter:'brightness(100%)' }} />
-                    <h3 style={{fontFamily:'cursive',color:'aqua',fontSize:'35px',fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif'}}>KNIGHT 2</h3>
-                    <p style={{fontSize:'20px',color:'lightgray',fontWeight:'bolder',fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif'}}>Co Founder & NFT master
-                    </p>
+                    <h3 style={{fontFamily:'cursive',color:'aqua',fontSize:'35px'}}>Sangin</h3>
+                    <p style={{fontSize:'20px',color:'lightgray',fontWeight:'bolder'}}>Co Founder & NFT master - Leader of the Night Dukes</p>
                 </Grid>
                 <Grid item  xs={6} md={6} lg={3} xl={3}  style={{justifyContent:'center',alignItems:'center',textAlign:'center'}}>
                     <img src={logo3} alt="" style={{borderRadius:'100%',filter:'brightness(100%)' }} />
-                    <h3 style={{fontFamily:'cursive',color:'aqua',fontSize:'35px',fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif'}}>KNIGHT 3</h3>
-                    <p style={{fontSize:'20px',color:'lightgray',fontWeight:'bolder',fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif'}}>Blockchain Developer
-                    </p>
+                    <h3 style={{fontFamily:'cursive',color:'aqua',fontSize:'35px'}}>Valamir</h3>
+                    <p style={{fontSize:'20px',color:'lightgray',fontWeight:'bolder'}}>Blockchain Developer - Leader of the Armor Hands</p>
                 </Grid>
                 <Grid item  xs={6} md={6} lg={3} xl={3} style={{justifyContent:'center',alignItems:'center',textAlign:'center'}}>
                     <img src={logo4} alt="" style={{borderRadius:'100%',filter:'brightness(100%)' }} />
-                    <h3 style={{fontFamily:'cursive',color:'aqua',fontSize:'35px',fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif'}}>KNIGHT 4</h3>
-                    <p style={{fontSize:'20px',color:'lightgray',fontWeight:'bolder',fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif'}}>Co Founder & Tech Expert
-                    </p>
+                    <h3 style={{fontFamily:'cursive',color:'aqua',fontSize:'35px'}}>Manigo</h3>
+                    <p style={{fontSize:'20px',color:'lightgray',fontWeight:'bolder'}}>Co Founder & Tech Expert - Leader of the Mech Lords</p>
                 </Grid>
             </Grid>
         </Box>

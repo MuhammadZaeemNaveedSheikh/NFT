@@ -29,7 +29,7 @@ the ‘Adimiro’s Plague.’</Typography>
           id="panel1a-header"
           style={{justifyContent:'center',alignItems:'center',textAlign:'center'}}
         >
-          <Typography className='readmore' style={{fontFamily:'cursive',fontSize:'30px',textAlign:'center',marginLeft:'35%'}}>Read More </Typography><ArrowDropDownIcon style={{fontSize:'25px',color:'aqua',marginTop:'10px'}} className="arrowkey" />
+          <Typography className='readmore' style={{fontFamily:'cursive',fontSize:'30px',textAlign:'center',marginLeft:'35%',fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif'}}>Read More </Typography><ArrowDropDownIcon style={{fontSize:'25px',color:'aqua',marginTop:'10px'}} className="arrowkey" />
         </AccordionSummary>
         <AccordionDetails>
           <Typography style={{color:'lightgrey',fontSize:'17px',fontWeight:'500',fontFamily: 'Montserrat,ui-serif,Georgia,Cambria,Times New Roman,Times,serif'}}>.

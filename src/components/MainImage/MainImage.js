@@ -4,8 +4,8 @@ import Box from '@mui/material/Box';
 // import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import logo from '../../images/1.jpg';
-import logo1 from './wearetext.svg';
-import logo2 from './lunaroidtext.svg';
+// import logo1 from './wearetext.svg';
+// import logo2 from './lunaroidtext.svg';
 
 import './MainImage.css';
 
@@ -18,7 +18,7 @@ function MainImage(){
           <Grid item xs={8} xl={8} md={8} lg={8}>
           <img src={logo} style={{width:'70%',height:'100vh',}}  alt=""/>
           </Grid>
-          <Grid item xs={4} xl={4} md={4} lg={4}> 
+          <Grid item xs={4} xl={4} md={4} lg={4}>
               <div style={{display:'flex',justifyContent:'center',alignItems: 'center',width:'25%',marginTop:'30%'}}>
                 <h2 style={{ filter: 'brightness(700%)',color:'white',fontSize:'150px',fontFamily:'cursive'}}>OMEGA KNIGHTS</h2>
         
@@ -30,7 +30,6 @@ function MainImage(){
       </Box>
        
     );
-
 }
 
 export default MainImage;

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactCarousel, { AFTER, CENTER, BEFORE } from "react-carousel-animated";
-import images from "./image";
+// import images from "./image";
 import logo from '../../images/2.jpg';
 import logo1 from '../../images/3.jpg';
 import logo2 from '../../images/4.jpg';
@@ -31,7 +31,7 @@ function Corosel(){
           containerBackgroundStyle={{
             filter: "blur(200px)",
             backgroundColor: "#161623",
-            filter:'brightness(200%)'
+            // filter:'brightness(200%)'
           }}
           itemMaxWidth={100}
           carouselHeight="480px"

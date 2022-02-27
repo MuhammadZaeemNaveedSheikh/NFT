@@ -1,5 +1,5 @@
 import React from 'react';
-import MenuIcon from '@mui/icons-material/Menu';
+
 
 import './Header.css';
 
@@ -9,7 +9,7 @@ function Header(){
    
            <nav>
                <input id="nav-toggle" type="checkbox" />
-               <div className='logo5'>NFT<strong>Code</strong></div>
+               <div className='logo5'>NFT <strong> Code</strong></div>
                <ul className='links'>
                    <li><a href="#Lore">Lore</a></li>
                    <li><a href="#Gallery">Gallery</a></li>

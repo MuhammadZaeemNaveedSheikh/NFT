@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactCarousel, { AFTER, CENTER, BEFORE } from "react-carousel-animated";
 import images from "./image";
-import logo from './8.jpg';
-import logo1 from './9.jpg';
-import logo2 from './10.jpg';
-import logo3 from './11.jpg';
-import logo4 from './12.jpg';
+import logo from '../../images/2.jpg';
+import logo1 from '../../images/3.jpg';
+import logo2 from '../../images/4.jpg';
+import logo3 from '../../images/5.jpg';
+import logo4 from '../../images/6.jpg';
 import "react-carousel-animated/dist/style.css";
 
 import './corosel.css';
@@ -36,10 +36,10 @@ function Corosel(){
           itemMaxWidth={50}
           carouselHeight="480px"
         >
-          {images[0].map((image, index) => (
+          
             <img
-              key={index}
-              src={image.src}
+            
+              src={logo}
               alt="test"
               style={{
                 maxHeight: "420px",
@@ -49,7 +49,52 @@ function Corosel(){
                 margin: ".5rem"
               }}
             />
-          ))}
+            <img
+             
+              src={logo1}
+              alt="test"
+              style={{
+                maxHeight: "420px",
+                maxWidth: "450px",
+                borderRadius: "20px",
+                boxShadow: "0 7px 20px 2px rgb(150, 170, 180)",
+                margin: ".5rem"
+              }} />
+              <img
+             
+             src={logo2}
+             alt="test"
+             style={{
+               maxHeight: "420px",
+               maxWidth: "450px",
+               borderRadius: "20px",
+               boxShadow: "0 7px 20px 2px rgb(150, 170, 180)",
+               margin: ".5rem"
+             }} />
+             <img
+             
+             src={logo3}
+             alt="test"
+             style={{
+               maxHeight: "420px",
+               maxWidth: "450px",
+               borderRadius: "20px",
+               boxShadow: "0 7px 20px 2px rgb(150, 170, 180)",
+               margin: ".5rem"
+             }} />
+             <img
+             
+             src={logo4}
+             alt="test"
+             style={{
+               maxHeight: "420px",
+               maxWidth: "450px",
+               borderRadius: "20px",
+               boxShadow: "0 7px 20px 2px rgb(150, 170, 180)",
+               margin: ".5rem"
+             }} />
+            
+        
         </ReactCarousel>
       </div>
     );

@@ -3,7 +3,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 // import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
-import logo from './7.png';
+import logo from '../../images/1.jpg';
 import logo1 from './wearetext.svg';
 import logo2 from './lunaroidtext.svg';
 
@@ -20,8 +20,9 @@ function MainImage(){
           </Grid>
           <Grid item xs={4}>
               <div style={{display:'flex',justifyContent:'center',alignItems: 'center',width:'25%',marginTop:'30%'}}>
-          <img src={logo1}  style={{width:'400px', filter: 'brightness(700%)'}} alt="" className='mainimagechange'/> 
-          <img src={logo2}  style={{width:'500px', filter: 'brightness(200%)'}} alt="" className='mainimagechange'/>
+                <h2 style={{ filter: 'brightness(700%)',color:'white',fontSize:'150px',fontFamily:'cursive'}}>OMEGA KNIGHTS</h2>
+        
+          
           </div>
           </Grid>
         

@@ -1,7 +1,7 @@
 const images = [
     [
       {
-        src: "../../images/2.jpg"
+        src: "https://drive.google.com/file/d/1cigbKNVQThpUvo28ZQlOs0oSwoKd2_LY/view?usp=sharing"
       },
       {
         src:

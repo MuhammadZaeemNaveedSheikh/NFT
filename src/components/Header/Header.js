@@ -14,9 +14,9 @@ function Header(){
                <input id="nav-toggle" type="checkbox" />
                <div className='logo5'><img src={logo} style={{width: '75px',height:'75px'}} alt=""/></div>
                <ul className='links'>
-                   <li><a href="#Lore">Lore</a></li>
-                   <li><a href="#Gallery">Gallery</a></li>
-                   <li><a href="#Roadmap">Roadmap</a></li>
+                   <li><a href='./components/Legend/Legend.js'>Lore</a></li>
+                   <li><a href="./components/Corosel/Corosel.js">Gallery</a></li>
+                   <li><a href="./components/Roadmap/roadmap.js">Roadmap</a></li>
                    <li><a href="#Artist">Artist</a></li>
                    <li><a href="#Team">Team</a></li>
                    <li><a href="#FAQ">FAQ</a></li>

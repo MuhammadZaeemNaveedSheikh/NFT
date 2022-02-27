@@ -33,7 +33,7 @@ function Corosel(){
             backgroundColor: "#161623",
             filter:'brightness(200%)'
           }}
-          itemMaxWidth={50}
+          itemMaxWidth={100}
           carouselHeight="480px"
         
         >

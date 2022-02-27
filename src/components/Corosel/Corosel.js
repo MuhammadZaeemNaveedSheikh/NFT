@@ -26,7 +26,7 @@ function Corosel(){
           itemBackgroundStyle={{
             backgroundColor: "#ece4db",
             borderRadius: "10px",
-            boxShadow: "8px 12px 14px -6px black"
+            boxShadow: "8px 12px 14px -6px black",
           }}
           containerBackgroundStyle={{
             filter: "blur(200px)",
@@ -46,7 +46,7 @@ function Corosel(){
                 maxWidth: "450px",
                 borderRadius: "20px",
                 boxShadow: "0 7px 20px 2px rgb(150, 170, 180)",
-                margin: ".5rem"
+                margin: ".5rem",
               }}
             />
             <img
@@ -58,7 +58,7 @@ function Corosel(){
                 maxWidth: "450px",
                 borderRadius: "20px",
                 boxShadow: "0 7px 20px 2px rgb(150, 170, 180)",
-                margin: ".5rem"
+                margin: ".5rem",
               }} />
               <img
              

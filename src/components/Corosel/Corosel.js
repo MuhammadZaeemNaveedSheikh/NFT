@@ -35,6 +35,7 @@ function Corosel(){
           }}
           itemMaxWidth={50}
           carouselHeight="480px"
+        
         >
           
             <img
@@ -42,11 +43,12 @@ function Corosel(){
               src={logo}
               alt="test"
               style={{
-                maxHeight: "420px",
-                maxWidth: "450px",
+                maxHeight: "450px",
+                maxWidth: "480px",
                 borderRadius: "20px",
                 boxShadow: "0 7px 20px 2px rgb(150, 170, 180)",
-                margin: ".5rem",
+                margin: "1rem",
+                
               }}
             />
             <img
@@ -54,44 +56,45 @@ function Corosel(){
               src={logo1}
               alt="test"
               style={{
-                maxHeight: "420px",
-                maxWidth: "450px",
+                maxHeight: "450px",
+                maxWidth: "480px",
                 borderRadius: "20px",
                 boxShadow: "0 7px 20px 2px rgb(150, 170, 180)",
-                margin: ".5rem",
+                margin: "1rem",
+                
               }} />
               <img
              
              src={logo2}
              alt="test"
              style={{
-               maxHeight: "420px",
-               maxWidth: "450px",
+              maxHeight: "450px",
+              maxWidth: "480px",
                borderRadius: "20px",
                boxShadow: "0 7px 20px 2px rgb(150, 170, 180)",
-               margin: ".5rem"
+               margin: "1rem"
              }} />
              <img
              
              src={logo3}
              alt="test"
              style={{
-               maxHeight: "420px",
-               maxWidth: "450px",
+              maxHeight: "450px",
+              maxWidth: "480px",
                borderRadius: "20px",
                boxShadow: "0 7px 20px 2px rgb(150, 170, 180)",
-               margin: ".5rem"
+               margin: "1rem"
              }} />
              <img
              
              src={logo4}
              alt="test"
              style={{
-               maxHeight: "420px",
-               maxWidth: "450px",
+              maxHeight: "450px",
+                maxWidth: "480px",
                borderRadius: "20px",
                boxShadow: "0 7px 20px 2px rgb(150, 170, 180)",
-               margin: ".5rem"
+               margin: "1rem"
              }} />
             
         

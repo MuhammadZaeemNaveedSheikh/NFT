@@ -26,15 +26,16 @@ function Corosel(){
           itemBackgroundStyle={{
             backgroundColor: "#ece4db",
             borderRadius: "10px",
-            boxShadow: "8px 12px 14px -6px black"
+            boxShadow: "8px 12px 14px -6px black",
           }}
           containerBackgroundStyle={{
             filter: "blur(200px)",
             backgroundColor: "#161623",
             // filter:'brightness(200%)'
           }}
-          itemMaxWidth={50}
+          itemMaxWidth={100}
           carouselHeight="480px"
+        
         >
           
             <img
@@ -42,11 +43,12 @@ function Corosel(){
               src={logo}
               alt="test"
               style={{
-                maxHeight: "420px",
-                maxWidth: "450px",
+                maxHeight: "450px",
+                maxWidth: "480px",
                 borderRadius: "20px",
                 boxShadow: "0 7px 20px 2px rgb(150, 170, 180)",
-                margin: ".5rem"
+                margin: "1rem",
+                
               }}
             />
             <img
@@ -54,44 +56,45 @@ function Corosel(){
               src={logo1}
               alt="test"
               style={{
-                maxHeight: "420px",
-                maxWidth: "450px",
+                maxHeight: "450px",
+                maxWidth: "480px",
                 borderRadius: "20px",
                 boxShadow: "0 7px 20px 2px rgb(150, 170, 180)",
-                margin: ".5rem"
+                margin: "1rem",
+                
               }} />
               <img
              
              src={logo2}
              alt="test"
              style={{
-               maxHeight: "420px",
-               maxWidth: "450px",
+              maxHeight: "450px",
+              maxWidth: "480px",
                borderRadius: "20px",
                boxShadow: "0 7px 20px 2px rgb(150, 170, 180)",
-               margin: ".5rem"
+               margin: "1rem"
              }} />
              <img
              
              src={logo3}
              alt="test"
              style={{
-               maxHeight: "420px",
-               maxWidth: "450px",
+              maxHeight: "450px",
+              maxWidth: "480px",
                borderRadius: "20px",
                boxShadow: "0 7px 20px 2px rgb(150, 170, 180)",
-               margin: ".5rem"
+               margin: "1rem"
              }} />
              <img
              
              src={logo4}
              alt="test"
              style={{
-               maxHeight: "420px",
-               maxWidth: "450px",
+              maxHeight: "450px",
+                maxWidth: "480px",
                borderRadius: "20px",
                boxShadow: "0 7px 20px 2px rgb(150, 170, 180)",
-               margin: ".5rem"
+               margin: "1rem"
              }} />
             
         

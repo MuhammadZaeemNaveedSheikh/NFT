@@ -10,22 +10,25 @@ import logo from '../../images/1.jpg';
 import './MainImage.css';
 
 
-
+  
 function MainImage(){
     return(
         <Box sx={{ flexGrow: 1 }} style={{marginBottom:'100px'}}>
-            <Grid container spacing={2} style={{justifyContent:'center',alignItems:'center'}}>
-                <Grid item xs={8}>
-                    <img src={logo} style={{width:'70%',height:'100vh',}}  alt=""/>
-                </Grid>
-                <Grid item xs={4}>
-                    <div style={{display:'flex',justifyContent:'center',alignItems: 'center',width:'25%',marginTop:'30%'}}>
-                        <h2 style={{ filter: 'brightness(700%)',color:'white',fontSize:'150px',fontFamily:'cursive'}}>OMEGA KNIGHTS</h2>
-                    </div>
-                </Grid>
-
-            </Grid>
-        </Box>
+        <Grid container spacing={2} style={{justifyContent:'center',alignItems:'center'}}>
+          <Grid item xs={8} xl={8} md={8} lg={8}>
+          <img src={logo} style={{width:'70%',height:'100vh',}}  alt=""/>
+          </Grid>
+          <Grid item xs={4} xl={4} md={4} lg={4}>
+              <div style={{display:'flex',justifyContent:'center',alignItems: 'center',width:'25%',marginTop:'30%'}}>
+                <h2 style={{ filter: 'brightness(700%)',color:'white',fontSize:'150px',fontFamily:'cursive'}}>OMEGA KNIGHTS</h2>
+        
+          
+          </div>
+          </Grid>
+        
+        </Grid>
+      </Box>
+       
     );
 }
 

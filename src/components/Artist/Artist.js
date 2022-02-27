@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './5.png'
+import logo from '../../images/1.jpg'
 // import FacebookIcon from '@mui/icons-material/Facebook';
 // import TwitterIcon from '@mui/icons-material/Twitter';
 // import InstagramIcon from '@mui/icons-material/Instagram';
@@ -10,7 +10,7 @@ import './App.css';
 function Artist(){
     return(
         <div className='artist' style={{marginTop:'200px',marginBottom:'350px'}}>
-            <img src={logo} alt=""/>
+            <img src={logo} alt="" style={{borderRadius:'50%'}}/>
             <h1 className='yann' style={{ fontFamily: 'cursive',letterSpacing:'10px',fontSize:'50px'}}>Alexander Karichi</h1>
             <h5 style={{fontFamily:'cursive',marginBottom:'5px'}}>The Artist</h5>
           <a href="https://www.artstation.com/karichi"><ArtTrackIcon className='icon1' style={{fontSize:'35px'}}/></a>  

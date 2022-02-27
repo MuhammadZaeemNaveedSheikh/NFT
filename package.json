@@ -1,8 +1,7 @@
 {
-  "name": "upworkapp30",
+  "name": "Omega Knights NFT",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/ZaeemNaveed/NFT.git",
   "dependencies": {
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",

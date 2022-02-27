@@ -11,7 +11,7 @@ import './Legend.css';
 
 function Legend(){
     return(
-        <div className="row" style={{marginTop:'250px',marginBottom:'200px',display: 'flex',}}>
+        <div id={"lore"} className="row" style={{marginTop:'250px',marginBottom:'200px',display: 'flex',}}>
             <div className='col' style={{marginBottom:'250px',filter:'brightness(100%)',width:'300px',marginRight:'100px'}}>
                 <h1 style={{fontFamily:'cursive',fontSize:'45px',color:'#fff',marginLeft:'150px'}} className="legend">Lore</h1>
             </div>

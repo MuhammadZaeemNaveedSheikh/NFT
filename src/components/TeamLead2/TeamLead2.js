@@ -3,9 +3,9 @@ import logo from '../../images/2.jpg';
 import logo2 from '../../images/3.jpg';
 import logo3 from '../../images/4.jpg';
 import logo4 from '../../images/5.jpg';
-import { styled } from '@mui/material/styles';
+// import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
+// import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 
 

@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from './1.jpg';
-import logo1 from './2.jpg';
-import logo2 from './3.jpg';
-import logo3 from './4.jpg';
+// import logo from './1.jpg';
+// import logo1 from './2.jpg';
+// import logo2 from './3.jpg';
+// import logo3 from './4.jpg';
 import './App.css';;
 
 

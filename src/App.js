@@ -18,7 +18,7 @@ function App() {
   return (
       <>
       <Header />
-      <Section />
+      {/* <Section /> */}
       <MainImage />
       
       <Legend />

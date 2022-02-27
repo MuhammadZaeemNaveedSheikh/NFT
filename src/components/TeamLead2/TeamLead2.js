@@ -11,9 +11,9 @@ import Grid from '@mui/material/Grid';
 function TeamLead2(){
     return(
 
-        <Box sx={{ flexGrow: 1 }} style={{width:'80%',margin:'auto',marginBottom:'150px'}}>
-      <Grid container spacing={2}>
-        <Grid item xs={3} style={{justifyContent:'center',alignItems:'center',textAlign:'center'}}>
+        <Box sx={{ flexGrow: 1 }} style={{width:'80%',margin:'auto',marginBottom:'150px'}} >
+      <Grid container spacing={2} className="teamlead4"> 
+        <Grid item xs={3} style={{justifyContent:'center',alignItems:'center',textAlign:'center'}} className="teamlead4">
         <img src={logo} alt="" style={{borderRadius:'100%',filter:'brightness(100%)' }} />
                 <h3 style={{fontFamily:'cursive',color:'aqua',fontSize:'35px'}}>Mitsuaki</h3>
                 <p style={{fontSize:'20px',color:'lightgray',fontWeight:'bolder'}}>Co Founder & Marketing headmaster    </p>

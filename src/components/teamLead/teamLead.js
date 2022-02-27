@@ -9,11 +9,11 @@ import './App.css';;
 
 function teamLead() {
     return (
-        <body style={{marginBottom:'150px'}}>
+        <body style={{marginBottom:'150px'}} >
             <h1 style={{color:'#fff',marginRight:'5%'}}>TEAM</h1>
-        <div className='container'>
+        <div className='container' >
             
-            <div className='box'>
+            <div className='box' >
                 
             <span></span>
             <div className='content'>
